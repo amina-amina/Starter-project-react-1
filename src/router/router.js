@@ -7,8 +7,8 @@ import {
 import DashboardPage from "../pages/dashboard-page ";
 import Error404Page from "../pages/Error 404 page";
 import LmsPage from "../pages/lms-page";
-import RegisterPage from "../pages/register/register-page";
-import LgPage from "../pages/Log/login-page";
+import RegisterPage from "../pages/register-page";
+import LgPage from "../pages/login-page";
 export default function RouterApp() {
   return (
     <Router>

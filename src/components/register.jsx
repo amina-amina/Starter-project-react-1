@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
-import "../../assets/main.css"
-import background from "../../assets/bg-01.jpg";
+import React from 'react'
 import { Link } from 'react-router-dom';
-export default class RegisterPage extends Component {
-    render() {
-        return (
+import "../assets/main.css"
+import background from "../assets/bg-01.jpg";
+
+export default function Register() {
+    return (
+        <div>
 <div className="limiter">
   <div className="container-login100">
     <div className="login100-more" style={{ backgroundImage: `url(${background})` }} />
@@ -56,8 +57,6 @@ export default class RegisterPage extends Component {
     </div>
   </div>
 </div>
-        )
-    }
+        </div>
+    )
 }
-
-

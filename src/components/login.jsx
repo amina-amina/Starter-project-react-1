@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
-import "../../assets/main.css"
-import background from "../../assets/bg-01.jpg";
+import "../assets/main.css"
+import background from "../assets/bg-01.jpg";
 
-export default class LgPage extends Component {
-    render() {
-        return (
-      <div className="limiter">
+export default function Login() {
+    return (
+        <div>
+<div className="limiter">
   <div className="container-login100">
     <div className="login100-more" style={{ backgroundImage: `url(${background})` }} />
     <div className="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
@@ -39,8 +39,6 @@ export default class LgPage extends Component {
     </div>
   </div>
 </div>
-        )
-    }
+        </div>
+    )
 }
-
-
