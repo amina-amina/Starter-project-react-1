@@ -13,7 +13,7 @@ export default function Globaldesign(props) {
   Tip 2: you can also add an image using data-image tag
     */}
                     <div className="logo"><a href="#" className="simple-text logo-normal">
-                        E-commerce APP 3W
+                        E-commerce 
       </a></div>
                     <div className="sidebar-wrapper">
                         <ul className="nav">
